@@ -1,11 +1,11 @@
 
 const express = require('express');
 const app = express();
-const port = 3001;
+const port = 3000;
 
 
 app.get('/', function(req, res) {
-    console.log('Request received on app01')
+    console.log('Request received on app02')
     res.send('Hello World!');
 });
 
